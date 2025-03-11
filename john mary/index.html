@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Mary Nyajura - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="/IMG_20240226_173953_225.jpg">
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+      <div class="logo">
+        <a href="logo.webp"><img src="logo.webp" style="width: 50px; border-radius: 10px;"></a>
+      </div>
+  
+      <!-- Hamburger Menu Icon -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+  
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+</nav>
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-content">
+      <div class="home-text">
+        <div class="home-image">
+            <img src="IMG_20250126_092412_308.jpg" alt="John Mary Nyajura">
+          </div>
+        <h1>Hello, I'm John Mary Nyajura</h1>
+        <p>Statistics & Programming Student | Aspiring Data Scientist</p>
+        <p>
+          Welcome to my digital space! 🚀<br><br>  
+  
+          I am a tech enthusiast with a passion for <b>data science, artificial intelligence (AI) & machine learning (ML), cybersecurity, and networking</b>.<br>  
+          With a keen eye for innovation and problem-solving, I specialize in leveraging cutting-edge technology to extract insights from data, build intelligent systems, and secure digital environments.<br><br>  
+  
+          Whether you're here to explore my projects, learn about my expertise, or collaborate on exciting tech-driven solutions, you're in the right place.<br>  
+          Feel free to navigate through my portfolio and discover how I bring technology to life!<br><br>  
+  
+          Let’s connect and build something amazing together. 🚀
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+        Welcome to my portfolio!<br>  
+I am a passionate and driven technology enthusiast with a deep interest in <b>data science, artificial intelligence (AI) & machine learning (ML), cybersecurity, and networking</b>.<br><br>  
+
+Currently, I am pursuing <b>statistics and programming</b> at <b>Mama Ngina University</b>, refining my expertise in data analysis, software development, and system security.<br>  
+I am also a <b>junior data scientist and analyst</b> at <b>AMREC Consultants</b>, where I completed a mentorship focused on research, data-driven decision-making, and analytical problem-solving.<br><br>  
+
+Beyond academics, I am actively involved in multiple ventures. I run <b>JeanStores</b>, an e-commerce business, and <b>Anticon</b>, a startup leveraging QR codes to track online product sales and prevent counterfeit deliveries.<br><br>   
+Additionally, I am developing a <b>social networking platform</b> with advanced features such as user authentication, age restriction (18+), real-time chat, multimedia uploads, and geo-location capabilities.<br>  
+I am also working on a website for a friend’s laptop business and creating this portfolio to showcase my work and skills.I am always looking for opportunities to grow, whether through hackathons, freelance projects, or research in cybersecurity and AI.<br><br>  
+
+I am constantly exploring innovative technologies, developing robust algorithms, and enhancing my problem-solving skills to tackle real-world challenges.<br>  
+Whether it's crafting AI-driven solutions, analyzing complex datasets, fortifying cyber defenses, or optimizing network performance, I am committed to leveraging my skills to drive impact and innovation in the ever-evolving tech landscape.<br><br>  
+
+Let’s connect and explore how technology can shape the future! 🚀
+
+     
+    </p>
+    
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <!-- Web Development -->
+      <div class="skill-category">
+        <div class="skill-header" onclick="toggleDropdown('web-development')">
+          <h3>Web Development</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="skill-items" id="web-development">
+          <div class="skill-item">
+            <img src="HTML.jpeg" alt="HTML Logo">
+            <p>HTML</p>
+          </div>
+          <div class="skill-item">
+            <img src="CSS.png" alt="CSS Logo">
+            <p>CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="JS.png" alt="JavaScript Logo">
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <img src="react.webp" alt="React Logo">
+            <p>React</p>
+          </div>
+          <div class="skill-item">
+            <img src="typescript.webp" alt="TypeScript Logo">
+            <p>TypeScript</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Data Science and Analytics -->
+      <div class="skill-category">
+        <div class="skill-header" onclick="toggleDropdown('data-science')">
+          <h3>Data Science and Analytics</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="skill-items" id="data-science">
+          <div class="skill-item">
+            <img src="python.png" alt="Python Logo">
+            <p>Python</p>
+          </div>
+          <div class="skill-item">
+            <img src="r.jpeg" alt="R Logo">
+            <p>R</p>
+          </div>
+          <div class="skill-item">
+            <img src="sql.jpeg" alt="SQL Logo">
+            <p>SQL</p>
+          </div>
+          <div class="skill-item">
+            <img src="ml.png" alt="Machine Learning Logo">
+            <p>AI & ML</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Mobile App Development -->
+      <div class="skill-category">
+        <div class="skill-header" onclick="toggleDropdown('mobile-development')">
+          <h3>Mobile App Development</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="skill-items" id="mobile-development">
+          <div class="skill-item">
+            <img src="native.png" alt="React Logo">
+            <p>React Native</p>
+          </div>
+          <div class="skill-item">
+            <img src="rust.webp" alt="Rust Logo">
+            <p>Rust</p>
+          </div>
+          <div class="skill-item">
+            <img src="flutter.png" alt="Flutter Logo">
+            <p>Flutter</p>
+          </div>
+          <div class="skill-item">
+            <img src="java.png" alt="java Logo">
+            <p>Dart</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Blockchain -->
+      <div class="skill-category">
+        <div class="skill-header" onclick="toggleDropdown('blockchain')">
+          <h3>Blockchain</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="skill-items" id="blockchain">
+          <div class="skill-item">
+            <img src="sol.jpeg" alt="Blockchain Logo">
+            <p>Solana</p>
+          </div>
+          <div class="skill-item">
+            <img src="rust.webp" alt="Rust Logo">
+            <p>Rust</p>
+          </div>
+          <div class="skill-item">
+            <img src="motoko.jpeg" alt="Motoko Logo">
+            <p>Motoko</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+  
+    <!-- Project 1: Data Analysis with Python -->
+    <div class="project">
+      <div class="project-preview">
+        <img src="coronavirus-covid-19.webp" alt="COVID-19 Data Analysis Preview">
+      </div>
+      <div class="project-details">
+        <h3>Project 1: COVID-19 Data Analysis with Python</h3>
+        <p>
+          <strong>Description:</strong> Analyzed global COVID-19 data to visualize trends, patterns, and key insights using Python libraries like Pandas, Matplotlib, and Seaborn.<br>
+          <strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn.  <br>
+          <strong>Key Features:</strong> Data cleaning, exploratory data analysis (EDA), and interactive visualizations.
+        </p>
+        <div class="project-links">
+          <a href="https://www.kaggle.com/code/therealcyberlord/coronavirus-covid-19-visualization-prediction?kernelSessionId=116547494" target="_blank" class="btn">View on Kaggle</a>
+          <a href="coronavirus-covid-19-visualization-prediction.ipynb" download class="btn">Download Notebook</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Project 2: Machine Learning Model -->
+    <div class="project">
+      <div class="project-preview">
+        <img src="churn.webp" alt="Customer Churn Prediction Preview">
+      </div>
+      <div class="project-details">
+        <h3>Project 2: Customer Churn Prediction with Scikit-Learn</h3>
+        <p>
+          <strong>Description:</strong> Built a machine learning model to predict customer churn for a telecom company using Scikit-Learn. The model achieved an accuracy of 85%.  <br>
+          <strong>Technologies:</strong> Python, Scikit-Learn, Pandas, NumPy. <br> 
+          <strong>Key Features:</strong> Data preprocessing, feature engineering, model evaluation, and deployment.
+        </p>
+        <div class="project-links">
+          <a href="https://www.kaggle.com/code/jsaguiar/churn-prediction-tutorial-with-sklearn?kernelSessionId=6549392" target="_blank" class="btn">View on Kaggle</a>
+          <a href="churn-prediction-tutorial-with-sklearn.ipynb" download class="btn">Download Notebook</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Project 3: Blockchain Demo -->
+    <div class="project">
+      <div class="project-preview">
+        <img src="blockimp.webp" alt="Blockchain Demo Preview">
+      </div>
+      <div class="project-details">
+        <h3>Project 3: Blockchain Implementation in Python</h3>
+        <p>
+          <strong>Description:</strong> Created a simple blockchain implementation in Python to demonstrate the core concepts of blockchain technology, including blocks, hashing, and proof-of-work.<br>  
+          <strong>Technologies:</strong> Python, Flask (for a simple web interface), Django for backend, React for the frontend. <br> 
+          <strong>Key Features:</strong> Block creation, hashing, proof-of-work, and a simple web interface to interact with the blockchain.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/2020-SHAW/Fake-Product-Identification-System" target="_blank" class="btn">View on GitHub</a>
+          <a href="https://github.com/2020-SHAW/Fake-Product-Identification-System/archive/main.zip" download class="btn">Download Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/mgvaeydg" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+  
+      <!-- Contact Icons -->
+      <div class="contact-info">
+        <a href="https://wa.me/254783845747" target="_blank" class="contact-icon">
+          <i class="fab fa-whatsapp"></i>
+          <span>Chat on WhatsApp</span>
+        </a>
+        <a href="mailto:okalmohn18@gmail.com" class="contact-icon">
+          <i class="fas fa-envelope"></i>
+          <span>Send an Email</span>
+        </a>
+        <a href="tel:0743874690" class="contact-icon">
+          <i class="fas fa-phone"></i>
+          <span>Call Me</span>
+        </a>
+        <a href="Resume.pdf" download class="download-button">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+      </div>
+    </div>
+  </section>  
+
+  <!-- Back to Top Arrow -->
+<div id="back-to-top" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 John Mary Nyajura. All rights reserved</p>
+    <div class="social-icons">
+      <a href="https://github.com/okalmary254" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/jean__marie_" target="_blank" aria-label="Twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/john-mary254" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://kaggle.com/janmari" target="_blank" aria-label="Kaggle">
+        <i class="fab fa-kaggle"></i>
+      </a>
+      <a href="https://facebook.com/yourusername" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://instagram.com/phil.anth.ropist" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

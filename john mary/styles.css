@@ -1,0 +1,530 @@
+
+
+/* General Styles */
+body {
+    background-image: url('tech1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  nav {
+    background-image: url('tech1.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00bcd4;
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  h1, h2, h3 {
+    color: #00bcd4;
+  }
+  
+
+  /* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #00bcd4;
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    /* Navigation Links */
+.nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hide off-screen */
+    height: 100vh;
+    width: 60%;
+    background-color: #333;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+  }
+  
+  .nav-links.active {
+    right: 0; /* Show on-screen */
+  }
+  
+    .nav-links.active {
+      right: 0; /* Show on-screen */
+    }
+  
+    /* Transform hamburger into cross */
+    .hamburger.active .bar:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+  }
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #00bcd4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  
+
+  /* Default styles for the paragraph */
+.mobile-paragraph {
+    display: block;
+    overflow: hidden;
+    max-height: 150px; /* Show only a portion of the text */
+    transition: max-height 0.5s ease;
+  }
+  
+  /* Show the full paragraph when expanded */
+  .mobile-paragraph.expanded {
+    max-height: 1000px; /* Adjust based on your content length */
+  }
+  
+  /* Hide the "Read More" button on larger screens */
+  @media (min-width: 769px) {
+    .read-more-toggle {
+      display: none;
+    }
+  }
+  
+  /* Style the "Read More" button */
+  .read-more-toggle {
+    color: #00bcd4;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* Skills Section */
+#skills {
+    padding: 2rem;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill-category {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .skill-header h3 {
+    margin: 0;
+    color: #00bcd4;
+  }
+  
+  .skill-header i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-items {
+    display: none; /* Hidden by default */
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .skill-items.active {
+    display: flex; /* Show when active */
+  }
+  
+  .skill-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+  }
+  
+  .skill-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #00bcd4;
+  }
+  #projects {
+    background-image: url('tech1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    background-color: #2c2c2c;
+    color: #ffffff;
+  }
+  
+  .project {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: #2c2929;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-preview img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+  }
+  
+  .project-details {
+    flex: 1;
+  }
+  
+  .project-details h3 {
+    color: #00bcd4;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-details p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .project-links .btn {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #00bcd4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links .btn:hover {
+    background-color: #0097a7;
+  }
+  
+  #contact {
+    background-image: url('tech9.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    padding: 0.75rem;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #00bcd4;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0097a7;
+  }
+  
+  .contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    background-color: #1e1e1e;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-icon:hover {
+    background-color: #00bcd4;
+  }
+  
+  .contact-icon i {
+    font-size: 1.5rem;
+  }
+
+  /* Download Button */
+.download-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #00bcd4;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #0097a7;
+  }
+  
+  .download-button i {
+    margin-right: 0.5rem;
+  }
+  
+  footer {
+    background-image: url('tech7.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  footer p {
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00bcd4;
+  }
+
+  /* Back to Top Arrow */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00bcd4;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .back-to-top i {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .home-image img {
+      width: 150px;
+    }
+  
+    .project {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .project-preview img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .skills-container {
+      gap: 1rem;
+    }
+  
+    .skill-item {
+      width: 100%;
+    }
+  }
