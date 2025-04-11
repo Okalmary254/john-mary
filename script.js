@@ -47,37 +47,22 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
       
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const hamburger = document.getElementById("hamburger");
-        const navLinks = document.getElementById("nav-links");
-      
-        // Toggle navigation menu
-        hamburger.addEventListener("click", function () {
-          hamburger.classList.toggle("active");
-          navLinks.classList.toggle("active");
-        });
-      
-        // Auto-hide navigation bar after 5 seconds when a link is clicked
-        const navLinksList = document.querySelectorAll(".nav-links a");
-        navLinksList.forEach((link) => {
-          link.addEventListener("click", function () {
-            // Close the navigation menu
-            hamburger.classList.remove("active");
-            navLinks.classList.remove("active");
-      
-            // Automatically hide the navigation bar after 5 seconds
-            setTimeout(() => {
-              navLinks.style.display = "none";
-            }, 5000); // 5000 milliseconds = 5 seconds
-      
-            // Reset the display property after hiding
-            setTimeout(() => {
-              navLinks.style.display = "flex";
-            }, 5001); // Reset immediately after hiding
-          });
-        });
-      });
+    // Mobile Nav Toggle
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
 
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('active');
+});
+
+// Close when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('active');
+  });
+});
       function toggleDropdown(id) {
         const dropdown = document.getElementById(id);
         const chevron = dropdown.previousElementSibling.querySelector("i");
@@ -89,3 +74,47 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
         chevron.classList.toggle("fa-chevron-up");
         chevron.classList.toggle("fa-chevron-down");
       }
+
+   
+// Contact Form Submission
+const contactForm = document.getElementById('contact-form');
+const formStatus = document.getElementById('form-status');
+
+contactForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  // Disable submit button
+  const submitButton = contactForm.querySelector('button[type="submit"]');
+  submitButton.disabled = true;
+  submitButton.querySelector('.button-text').textContent = 'Sending...';
+  
+  try {
+    const response = await fetch(contactForm.action, {
+      method: 'POST',
+      body: new FormData(contactForm),
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+    
+    if (response.ok) {
+      formStatus.textContent = 'Message sent successfully!';
+      formStatus.style.color = '#4BB543';
+      contactForm.reset();
+    } else {
+      throw new Error('Form submission failed');
+    }
+  } catch (error) {
+    formStatus.textContent = 'Oops! There was a problem sending your message.';
+    formStatus.style.color = '#FF0000';
+    console.error('Error:', error);
+  } finally {
+    submitButton.disabled = false;
+    submitButton.querySelector('.button-text').textContent = 'Send Message';
+    
+    // Hide status message after 5 seconds
+    setTimeout(() => {
+      formStatus.textContent = '';
+    }, 5000);
+  }
+});
