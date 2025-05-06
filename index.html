@@ -9,22 +9,22 @@
     <meta name="keywords" content="data science, machine learning, AI, portfolio, web development, cybersecurity, blockchain">
     <meta name="author" content="John Mary Nyajura">
     <meta name="robots" content="index, follow">
-  
-    <!-- Open Graph / Facebook 
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://johnmn.netlify.app/">
     <meta property="og:title" content="John Mary Nyajura | Data Scientist & AI Engineer">
     <meta property="og:description" content="Portfolio showcasing projects in machine learning, data analysis, and web development">
     <meta property="og:image" content="https://johnmn.netlify.app/ml.png">
   
-    Twitter -
+    <!--Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://johnmn.netlify.app/">
     <meta property="twitter:title" content="John Mary Nyajura | Data Scientist & AI Engineer">
     <meta property="twitter:description" content="Portfolio showcasing projects in machine learning, data analysis, and web development">
     <meta property="twitter:image" content="https://johnmn.netlify.app/ml.png">
   
-    <!-- Canonical URL --
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://johnmn.netlify.app/">
   
     <!-- Favicon --
@@ -35,6 +35,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/IMG_20240226_173953_225.jpg"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  
 </head>
 <body>
 
@@ -55,10 +59,11 @@
       <ul class="nav-links" id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href=".gallery">Gallery</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#blog">Blog</a></li>
-        <li><a href="#certifications">Certcfications</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -67,22 +72,9 @@
   <section id="home">
     <div class="home-content">
       <div class="home-text">
-        <div class="home-image">
-            <img src="IMG_20250126_092412_308.jpg" alt="John Mary Nyajura">
-          </div>
         <h1>Hello, I'm John Mary Nyajura</h1>
         <p>Statistics & Programming Student | Aspiring Data Scientist</p>
-        <p>
-          Welcome to my digital space! 🚀<br><br>  
-  
-          I am a tech enthusiast with a passion for <b>data science, artificial intelligence (AI) & machine learning (ML), cybersecurity, and networking</b>.<br>  
-          With a keen eye for innovation and problem-solving, I specialize in leveraging cutting-edge technology to extract insights from data, build intelligent systems, and secure digital environments.<br><br>  
-  
-          Whether you're here to explore my projects, learn about my expertise, or collaborate on exciting tech-driven solutions, you're in the right place.<br>  
-          Feel free to navigate through my portfolio and discover how I bring technology to life!<br><br>  
-  
-          Let’s connect and build something amazing together. 🚀
-        </p>
+        <p>Passionate about data science, AI, and web development.</p>
       </div>
     </div>
   </section>
@@ -91,7 +83,7 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-        Welcome to my portfolio!<br>  
+        Welcome to my digital space!<br>  
 I am a passionate and driven technology enthusiast with a deep interest in <b>data science, artificial intelligence (AI) & machine learning (ML), cybersecurity, and networking</b>.<br><br>  
 
 Currently, I am pursuing <b>statistics and programming</b> at <b>Mama Ngina University</b>, refining my expertise in data analysis, software development, and system security.<br>  
@@ -110,6 +102,31 @@ Let’s connect and explore how technology can shape the future! 🚀
     </p>
     
   </section>
+
+  <!-- Gallery Section -->
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="pictorial1.jpeg" alt="Project 1">
+    </div>
+    <div class="gallery-item">
+      <img src="pic2.jpeg" alt="Project 2">
+    </div>
+    <div class="gallery-item">
+      <img src="pic3.jpeg" alt="Project 3">
+    </div>
+    <div class="gallery-item">
+      <img src="pic4.jpeg" alt="Project 4">
+    </div>
+    <div class="gallery-item">
+      <img src="pic5.jpeg" alt="Project 5">
+    </div>
+    <div class="gallery-item">
+      <img src="pic6.jpeg" alt="Project 6">
+    </div>
+  </div>
+</section>
 
   <!-- Skills Section -->
   <section id="skills">
@@ -247,7 +264,7 @@ Let’s connect and explore how technology can shape the future! 🚀
 
   <!-- Projects Section -->
   <section id="projects">
-    <h2>Projects</h2>
+    <h2 style="text-align: center;">Projects</h2>
   
     <!-- Project 1: Data Analysis with Python -->
     <div class="project">
@@ -286,14 +303,33 @@ Let’s connect and explore how technology can shape the future! 🚀
         </div>
       </div>
     </div>
+
+    <!--project 3: machine learning model v2-->
+    <div class="project">
+      <div class="project-preview">
+        <img src="churn.webp" alt="Customer Churn Prediction Preview">
+      </div>
+      <div class="project-details">
+        <h3>Project 3: Student habits vs academic performance</h3>
+        <p>
+          <strong>Description:</strong> Built a machine learning model to predict student's academic performance vs habits. The model achieved an accuracy of 85%.  <br>
+          <strong>Technologies:</strong> Python, Scikit-Learn, Pandas, NumPy, Seaborn. <br> 
+          <strong>Key Features:</strong> Data preprocessing, feature engineering, model evaluation, and deployment.
+        </p>
+        <div class="project-links">
+          <a href="https://www.kaggle.com/code/janmari/mlproject" target="_blank" class="btn">View on Kaggle</a>
+          <a href="mlproject.ipynb" download class="btn">Download Notebook</a>
+        </div>
+      </div>
+    </div>
   
-    <!-- Project 3: Blockchain Demo -->
+    <!-- Project 4: Blockchain Demo -->
     <div class="project">
       <div class="project-preview">
         <img src="blockimp.webp" alt="Blockchain Demo Preview">
       </div>
       <div class="project-details">
-        <h3>Project 3: Blockchain Implementation in Python</h3>
+        <h3>Project 4: Blockchain Implementation in Python</h3>
         <p>
           <strong>Description:</strong> Created a simple blockchain implementation in Python to demonstrate the core concepts of blockchain technology, including blocks, hashing, and proof-of-work.<br>  
           <strong>Technologies:</strong> Python, Flask (for a simple web interface), Django for backend, React for the frontend. <br> 
@@ -370,20 +406,20 @@ Let’s connect and explore how technology can shape the future! 🚀
       <!-- Certification 1 -->
       <div class="certification-card">
         <div class="certification-header">
-          <img src="gda.png" alt="Google Data Analytics" class="certification-logo">
+          <img src="amreclogo.jpeg" alt="Data Analytics" class="certification-logo">
           <div class="certification-badge">
             <i class="fas fa-award"></i> Verified
           </div>
         </div>
         <div class="certification-body">
-          <h3 class="certification-title">Google Data Analytics Professional Certificate</h3>
-          <p class="certification-issuer">Issued by Google • May 2024</p>
+          <h3 class="certification-title">Research Methods and Data Management & Analysis</h3>
+          <p class="certification-issuer">Issued by AMREC CONSULTANTS • August 2024</p>
           <p class="certification-description">
-            Earned by completing an 8-course series covering data cleaning, analysis, visualization, and tools like SQL, R, and Tableau.
+            Earned by completing an 3-month-course series covering data cleaning, analysis, visualization, and tools like SQL, R, and Tableau.
           </p>
         </div>
         <div class="certification-footer">
-          <a href="#" class="view-certificate" target="_blank">
+          <a href="AMREC CERT1.pdf" class="view-certificate" target="_blank">
             View Certificate <i class="fas fa-external-link-alt"></i>
           </a>
           <button class="save-certificate">
@@ -395,20 +431,20 @@ Let’s connect and explore how technology can shape the future! 🚀
       <!-- Certification 2 -->
       <div class="certification-card">
         <div class="certification-header">
-          <img src="aws.png" alt="AWS Certified" class="certification-logo">
+          <img src="amreclogo.jpeg" alt="AWS Certified" class="certification-logo">
           <div class="certification-badge">
             <i class="fas fa-award"></i> Verified
           </div>
         </div>
         <div class="certification-body">
-          <h3 class="certification-title">AWS Certified Cloud Practitioner</h3>
-          <p class="certification-issuer">Issued by Amazon Web Services • March 2024</p>
+          <h3 class="certification-title">Mobile Data application programming</h3>
+          <p class="certification-issuer">Issued by AMREC CONSULTANTS • August 2024</p>
           <p class="certification-description">
-            Demonstrated foundational understanding of AWS Cloud concepts, services, and architecture.
+            Demonstrated foundational understanding of Data analytics and visualizationss, data collection, KDHS Data management.
           </p>
         </div>
         <div class="certification-footer">
-          <a href="#" class="view-certificate" target="_blank">
+          <a href="AMREC CERT 2.pdf" class="view-certificate" target="_blank">
             View Certificate <i class="fas fa-external-link-alt"></i>
           </a>
           <button class="save-certificate">
@@ -504,9 +540,6 @@ Let’s connect and explore how technology can shape the future! 🚀
       <a href="https://kaggle.com/janmari" target="_blank" aria-label="Kaggle">
         <i class="fab fa-kaggle"></i>
       </a>
-      <a href="https://facebook.com/yourusername" target="_blank" aria-label="Facebook">
-        <i class="fab fa-facebook"></i>
-      </a>
       <a href="https://instagram.com/phil.anth.ropist" target="_blank" aria-label="Instagram">
         <i class="fab fa-instagram"></i>
       </a>
@@ -533,5 +566,6 @@ Let’s connect and explore how technology can shape the future! 🚀
     }
     </script>
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
