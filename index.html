@@ -1,571 +1,105 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="John Mary Nyajura - Data Scientist & AI Engineer | Portfolio showcasing projects in machine learning, data analysis, and web development">
-    <meta name="keywords" content="data science, machine learning, AI, portfolio, web development, cybersecurity, blockchain">
-    <meta name="author" content="John Mary Nyajura">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://johnmn.netlify.app/">
-    <meta property="og:title" content="John Mary Nyajura | Data Scientist & AI Engineer">
-    <meta property="og:description" content="Portfolio showcasing projects in machine learning, data analysis, and web development">
-    <meta property="og:image" content="https://johnmn.netlify.app/ml.png">
-  
-    <!--Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://johnmn.netlify.app/">
-    <meta property="twitter:title" content="John Mary Nyajura | Data Scientist & AI Engineer">
-    <meta property="twitter:description" content="Portfolio showcasing projects in machine learning, data analysis, and web development">
-    <meta property="twitter:image" content="https://johnmn.netlify.app/ml.png">
-  
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://johnmn.netlify.app/">
-  
-    <!-- Favicon --
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest"> -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="/IMG_20240226_173953_225.jpg"> 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-  
+    <!-- Keep all meta tags from original -->
+    <title>John Mary Nyajura | Data Scientist & AI Engineer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>
+    <nav>
+        <!-- Same navigation but update links to point to .html files -->
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-<nav>
-    <div class="nav-container">
-      <div class="logo">
-        <a href="logo.webp"><img src="logo.webp" style="width: 50px; border-radius: 10px;"></a>
-      </div>
-  
-      <!-- Hamburger Menu Icon -->
-      <div class="hamburger" id="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-  
-      <!-- Navigation Links -->
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href=".gallery">Gallery</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-</nav>
-  <!-- Home Section -->
-  <section id="home">
-    <div class="home-content">
-      <div class="home-text">
-        <h1>Hello, I'm John Mary Nyajura</h1>
-        <p>Statistics & Programming Student | Aspiring Data Scientist</p>
-        <p>Passionate about data science, AI, and web development.</p>
-      </div>
-    </div>
-  </section>
+    <section id="home">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Hello, I'm John Mary Nyajura</h1>
+                <p>Statistics & Programming Student | Aspiring Data Scientist</p>
+                <p>Passionate about data science, AI, and web development.</p>
+                <div class="cta-buttons">
+                    <a href="projects.html" class="btn">View My Work</a>
+                    <a href="contact.html" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="assets/profile.jpg" alt="John Mary Nyajura">
+            </div>
+        </div>
+    </section>
 
-  <!-- About Me Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-        Welcome to my digital space!<br>  
-I am a passionate and driven technology enthusiast with a deep interest in <b>data science, artificial intelligence (AI) & machine learning (ML), cybersecurity, and networking</b>.<br><br>  
+    <section id="highlights">
+        <div class="highlight-container">
+            <div class="highlight-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Science</h3>
+                <p>Transforming data into actionable insights</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI/ML</h3>
+                <p>Building intelligent systems</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Dev</h3>
+                <p>Creating responsive web applications</p>
+            </div>
+        </div>
+    </section>
 
-Currently, I am pursuing <b>statistics and programming</b> at <b>Mama Ngina University</b>, refining my expertise in data analysis, software development, and system security.<br>  
-I am also a <b>junior data scientist and analyst</b> at <b>AMREC Consultants</b>, where I completed a mentorship focused on research, data-driven decision-making, and analytical problem-solving.<br><br>  
-
-Beyond academics, I am actively involved in multiple ventures. I run <b>JeanStores</b>, an e-commerce business, and <b>Anticon</b>, a startup leveraging QR codes to track online product sales and prevent counterfeit deliveries.<br><br>   
-Additionally, I am developing a <b>social networking platform</b> with advanced features such as user authentication, age restriction (18+), real-time chat, multimedia uploads, and geo-location capabilities.<br>  
-I am also working on a website for a friend’s laptop business and creating this portfolio to showcase my work and skills.I am always looking for opportunities to grow, whether through hackathons, freelance projects, or research in cybersecurity and AI.<br><br>  
-
-I am constantly exploring innovative technologies, developing robust algorithms, and enhancing my problem-solving skills to tackle real-world challenges.<br>  
-Whether it's crafting AI-driven solutions, analyzing complex datasets, fortifying cyber defenses, or optimizing network performance, I am committed to leveraging my skills to drive impact and innovation in the ever-evolving tech landscape.<br><br>  
-
-Let’s connect and explore how technology can shape the future! 🚀
-
-     
-    </p>
-    
-  </section>
-
-  <!-- Gallery Section -->
-<section class="gallery">
-  <h2>Gallery</h2>
-  <div class="gallery-container">
-    <div class="gallery-item">
-      <img src="pictorial1.jpeg" alt="Project 1">
-    </div>
-    <div class="gallery-item">
-      <img src="pic2.jpeg" alt="Project 2">
-    </div>
-    <div class="gallery-item">
-      <img src="pic3.jpeg" alt="Project 3">
-    </div>
-    <div class="gallery-item">
-      <img src="pic4.jpeg" alt="Project 4">
-    </div>
-    <div class="gallery-item">
-      <img src="pic5.jpeg" alt="Project 5">
-    </div>
-    <div class="gallery-item">
-      <img src="pic6.jpeg" alt="Project 6">
-    </div>
-  </div>
-</section>
-
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-container">
-      <!-- Web Development -->
-      <div class="skill-category">
-        <div class="skill-header" onclick="toggleDropdown('web-development')">
-          <h3>Web Development</h3>
-          <i class="fas fa-chevron-down"></i>
-        </div>
-        <div class="skill-items" id="web-development">
-          <div class="skill-item">
-            <img src="HTML.jpeg" alt="HTML Logo">
-            <p>HTML</p>
-          </div>
-          <div class="skill-item">
-            <img src="CSS.png" alt="CSS Logo">
-            <p>CSS</p>
-          </div>
-          <div class="skill-item">
-            <img src="JS.png" alt="JavaScript Logo">
-            <p>JavaScript</p>
-          </div>
-          <div class="skill-item">
-            <img src="react.webp" alt="React Logo">
-            <p>React</p>
-          </div>
-          <div class="skill-item">
-            <img src="typescript.webp" alt="TypeScript Logo">
-            <p>TypeScript</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Data Science and Analytics -->
-      <div class="skill-category">
-        <div class="skill-header" onclick="toggleDropdown('data-science')">
-          <h3>Data Science and Analytics</h3>
-          <i class="fas fa-chevron-down"></i>
-        </div>
-        <div class="skill-items" id="data-science">
-          <div class="skill-item">
-            <img src="python.png" alt="Python Logo">
-            <p>Python</p>
-          </div>
-          <div class="skill-item">
-            <img src="r.jpeg" alt="R Logo">
-            <p>R</p>
-          </div>
-          <div class="skill-item">
-            <img src="sql.jpeg" alt="SQL Logo">
-            <p>SQL</p>
-          </div>
-          <div class="skill-item">
-            <img src="ml.png" alt="Machine Learning Logo">
-            <p>AI & ML</p>
-          </div>
-          <div class="skill-item">
-            <img src="TensorFlow_logo.webp">
-            <p>TensorFlow</p>
-          </div>
-          <div class="skill-item">
-            <img src="python.png">
-            <p>Pytorch</p>
-          </div>
-          <div class="skill-item">
-            <img src="powerbi.webp">
-            <p>Power BI</p>
-          </div>
-          <div class="skill-item">
-            <img src="tableau.webp">
-            <p>Tableau</p>
-          </div>
-          <div class="skill-item">
-            <img src="pandas.jpg">
-            <p>Pandas</p>
-          </div>
-          <div class="skill-item">
-            <img src="NumPy_logo_2020.webp">
-            <p>NumPy</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Mobile App Development -->
-      <div class="skill-category">
-        <div class="skill-header" onclick="toggleDropdown('mobile-development')">
-          <h3>Mobile App Development</h3>
-          <i class="fas fa-chevron-down"></i>
-        </div>
-        <div class="skill-items" id="mobile-development">
-          <div class="skill-item">
-            <img src="native.png" alt="React Logo">
-            <p>React Native</p>
-          </div>
-          <div class="skill-item">
-            <img src="rust.webp" alt="Rust Logo">
-            <p>Rust</p>
-          </div>
-          <div class="skill-item">
-            <img src="flutter.png" alt="Flutter Logo">
-            <p>Flutter</p>
-          </div>
-          <div class="skill-item">
-            <img src="java.png" alt="java Logo">
-            <p>Java</p>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Blockchain -->
-      <div class="skill-category">
-        <div class="skill-header" onclick="toggleDropdown('blockchain')">
-          <h3>Blockchain</h3>
-          <i class="fas fa-chevron-down"></i>
-        </div>
-        <div class="skill-items" id="blockchain">
-          <div class="skill-item">
-            <img src="sol.jpeg" alt="Blockchain Logo">
-            <p>Solana</p>
-          </div>
-          <div class="skill-item">
-            <img src="rust.webp" alt="Rust Logo">
-            <p>Rust</p>
-          </div>
-          <div class="skill-item">
-            <img src="motoko.jpeg" alt="Motoko Logo">
-            <p>Motoko</p>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2 style="text-align: center;">Projects</h2>
-  
-    <!-- Project 1: Data Analysis with Python -->
-    <div class="project">
-      <div class="project-preview">
-        <img src="coronavirus-covid-19.webp" alt="COVID-19 Data Analysis Preview">
-      </div>
-      <div class="project-details">
-        <h3>Project 1: COVID-19 Data Analysis with Python</h3>
-        <p>
-          <strong>Description:</strong> Analyzed global COVID-19 data to visualize trends, patterns, and key insights using Python libraries like Pandas, Matplotlib, and Seaborn.<br>
-          <strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn.  <br>
-          <strong>Key Features:</strong> Data cleaning, exploratory data analysis (EDA), and interactive visualizations.
-        </p>
-        <div class="project-links">
-          <a href="https://www.kaggle.com/code/therealcyberlord/coronavirus-covid-19-visualization-prediction?kernelSessionId=116547494" target="_blank" class="btn">View on Kaggle</a>
-          <a href="coronavirus-covid-19-visualization-prediction.ipynb" download class="btn">Download Notebook</a>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Project 2: Machine Learning Model -->
-    <div class="project">
-      <div class="project-preview">
-        <img src="churn.webp" alt="Customer Churn Prediction Preview">
-      </div>
-      <div class="project-details">
-        <h3>Project 2: Customer Churn Prediction with Scikit-Learn</h3>
-        <p>
-          <strong>Description:</strong> Built a machine learning model to predict customer churn for a telecom company using Scikit-Learn. The model achieved an accuracy of 85%.  <br>
-          <strong>Technologies:</strong> Python, Scikit-Learn, Pandas, NumPy. <br> 
-          <strong>Key Features:</strong> Data preprocessing, feature engineering, model evaluation, and deployment.
-        </p>
-        <div class="project-links">
-          <a href="https://www.kaggle.com/code/jsaguiar/churn-prediction-tutorial-with-sklearn?kernelSessionId=6549392" target="_blank" class="btn">View on Kaggle</a>
-          <a href="churn-prediction-tutorial-with-sklearn.ipynb" download class="btn">Download Notebook</a>
-        </div>
-      </div>
-    </div>
-
-    <!--project 3: machine learning model v2-->
-    <div class="project">
-      <div class="project-preview">
-        <img src="churn.webp" alt="Customer Churn Prediction Preview">
-      </div>
-      <div class="project-details">
-        <h3>Project 3: Student habits vs academic performance</h3>
-        <p>
-          <strong>Description:</strong> Built a machine learning model to predict student's academic performance vs habits. The model achieved an accuracy of 85%.  <br>
-          <strong>Technologies:</strong> Python, Scikit-Learn, Pandas, NumPy, Seaborn. <br> 
-          <strong>Key Features:</strong> Data preprocessing, feature engineering, model evaluation, and deployment.
-        </p>
-        <div class="project-links">
-          <a href="https://www.kaggle.com/code/janmari/mlproject" target="_blank" class="btn">View on Kaggle</a>
-          <a href="mlproject.ipynb" download class="btn">Download Notebook</a>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Project 4: Blockchain Demo -->
-    <div class="project">
-      <div class="project-preview">
-        <img src="blockimp.webp" alt="Blockchain Demo Preview">
-      </div>
-      <div class="project-details">
-        <h3>Project 4: Blockchain Implementation in Python</h3>
-        <p>
-          <strong>Description:</strong> Created a simple blockchain implementation in Python to demonstrate the core concepts of blockchain technology, including blocks, hashing, and proof-of-work.<br>  
-          <strong>Technologies:</strong> Python, Flask (for a simple web interface), Django for backend, React for the frontend. <br> 
-          <strong>Key Features:</strong> Block creation, hashing, proof-of-work, and a simple web interface to interact with the blockchain.
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/2020-SHAW/Fake-Product-Identification-System" target="_blank" class="btn">View on GitHub</a>
-          <a href="https://github.com/2020-SHAW/Fake-Product-Identification-System/archive/main.zip" download class="btn">Download Code</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- blog sections -->
-<section id="blog" class="section">
-  <div class="container">
-    <h2 class="section-title">Latest Articles</h2>
-    <p class="section-subtitle">Sharing knowledge about data science, AI, and web development</p>
-    
-    <div class="blog-grid">
-      <!-- Blog Post 1 -->
-      <article class="blog-card">
-        <div class="blog-image-container">
-          <img src="scikit.png" alt="Machine Learning Tutorial" class="blog-image">
-          <div class="blog-tag">Machine Learning</div>
-        </div>
-        <div class="blog-content">
-          <div class="blog-meta">
-            <span class="blog-date"><i class="far fa-calendar-alt"></i> June 15, 2024</span>
-            <span class="blog-read-time"><i class="far fa-clock"></i> 8 min read</span>
-          </div>
-          <h3 class="blog-title">Getting Started with Scikit-Learn: A Practical Guide</h3>
-          <p class="blog-excerpt">Learn how to implement your first machine learning pipeline using Python's most popular ML library...</p>
-          <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scikit-learn.org/1.4/tutorial/index.html" class="blog-read-more">
-            Read Article <i class="fas fa-arrow-right"></i>
-          </a>
-        </div>
-      </article>
-
-      <!-- Blog Post 2 -->
-      <article class="blog-card">
-        <div class="blog-image-container">
-          <img src="cyber.png" alt="Cyber Security" class="blog-image">
-          <div class="blog-tag">Security</div>
-        </div>
-        <div class="blog-content">
-          <div class="blog-meta">
-            <span class="blog-date"><i class="far fa-calendar-alt"></i> May 28, 2024</span>
-            <span class="blog-read-time"><i class="far fa-clock"></i> 12 min read</span>
-          </div>
-          <h3 class="blog-title">Essential Cybersecurity Practices for Developers</h3>
-          <p class="blog-excerpt">Protect your applications from common vulnerabilities with these security best practices...</p>
-          <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cisa.gov/resources-tools/training/follow-cybersecurity-best-practices-protect-yourself-tracking-technologies-and-spyware" class="blog-read-more">
-            Read Article <i class="fas fa-arrow-right"></i>
-          </a>
-        </div>
-      </article>
-    </div>
-    
-    <div class="section-footer">
-      <a href="blog.html" class="view-all-button">View All Articles</a>
-    </div>
-  </div>
-</section>
-
-<!--cerifications section-->
-<!-- Certifications Section -->
-<section id="certifications" class="section">
-  <div class="container">
-    <h2 class="section-title">Certifications</h2>
-    <p class="section-subtitle">Professional credentials validating my expertise</p>
-    
-    <div class="certifications-grid">
-      <!-- Certification 1 -->
-      <div class="certification-card">
-        <div class="certification-header">
-          <img src="amreclogo.jpeg" alt="Data Analytics" class="certification-logo">
-          <div class="certification-badge">
-            <i class="fas fa-award"></i> Verified
-          </div>
-        </div>
-        <div class="certification-body">
-          <h3 class="certification-title">Research Methods and Data Management & Analysis</h3>
-          <p class="certification-issuer">Issued by AMREC CONSULTANTS • August 2024</p>
-          <p class="certification-description">
-            Earned by completing an 3-month-course series covering data cleaning, analysis, visualization, and tools like SQL, R, and Tableau.
-          </p>
-        </div>
-        <div class="certification-footer">
-          <a href="AMREC CERT1.pdf" class="view-certificate" target="_blank">
-            View Certificate <i class="fas fa-external-link-alt"></i>
-          </a>
-          <button class="save-certificate">
-            <i class="far fa-bookmark"></i> Save
-          </button>
-        </div>
-      </div>
-
-      <!-- Certification 2 -->
-      <div class="certification-card">
-        <div class="certification-header">
-          <img src="amreclogo.jpeg" alt="AWS Certified" class="certification-logo">
-          <div class="certification-badge">
-            <i class="fas fa-award"></i> Verified
-          </div>
-        </div>
-        <div class="certification-body">
-          <h3 class="certification-title">Mobile Data application programming</h3>
-          <p class="certification-issuer">Issued by AMREC CONSULTANTS • August 2024</p>
-          <p class="certification-description">
-            Demonstrated foundational understanding of Data analytics and visualizationss, data collection, KDHS Data management.
-          </p>
-        </div>
-        <div class="certification-footer">
-          <a href="AMREC CERT 2.pdf" class="view-certificate" target="_blank">
-            View Certificate <i class="fas fa-external-link-alt"></i>
-          </a>
-          <button class="save-certificate">
-            <i class="far fa-bookmark"></i> Save
-          </button>
-        </div>
-      </div>
-      <!--cert 3-->
-      <div class="certification-card">
-        <div class="certification-header">
-          <img src="iot.png" alt="AWS Certified" class="certification-logo">
-          <div class="certification-badge">
-            <i class="fas fa-award"></i> Verified
-          </div>
-        </div>
-        <div class="certification-description">
-          <p>Successfully completed the intensive 3-day IoT hackathon demonstrating skills in:</p>
-          <ul class="skills-list">
-            <li><i class="fas fa-microchip"></i> IoT device prototyping</li>
-            <li><i class="fas fa-network-wired"></i> Wireless sensor networks</li>
-            <li><i class="fas fa-cloud"></i> Cloud integration</li>
-            <li><i class="fas fa-code"></i> Rapid solution development</li>
-          </ul>
-          <p class="event-details">
-            <i class="fas fa-map-marker-alt"></i> Mama Ngina University<br>
-            <i class="fas fa-calendar-alt"></i> 2nd-4th February 2024
-          </p>
-        </div>    
-        <div class="certification-footer">
-          <a href="iot.pdf" class="view-certificate" target="_blank">
-            View Certificate <i class="fas fa-external-link-alt"></i>
-          </a>
-          <button class="save-certificate">
-            <i class="far fa-bookmark"></i> Save
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-container">
-      <!-- Contact Form -->
-      <form action="https://formspree.io/f/mgvaeydg" method="POST" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-  
-      <!-- Contact Icons -->
-      <div class="contact-info">
-        <a href="https://wa.me/254783845747" target="_blank" class="contact-icon">
-          <i class="fab fa-whatsapp"></i>
-          <span>Chat on WhatsApp</span>
+    <footer>
+      <p>&copy; 2025 John Mary Nyajura. All rights reserved</p>
+      <div class="social-icons">
+        <a href="https://github.com/okalmary254" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
         </a>
-        <a href="mailto:okalmohn18@gmail.com" class="contact-icon">
-          <i class="fas fa-envelope"></i>
-          <span>Send an Email</span>
+        <a href="https://twitter.com/jean__marie_" target="_blank" aria-label="Twitter">
+          <i class="fa-brands fa-twitter"></i>
         </a>
-        <a href="tel:0743874690" class="contact-icon">
-          <i class="fas fa-phone"></i>
-          <span>Call Me</span>
+        <a href="https://www.linkedin.com/in/john-mary254" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
         </a>
-        <a href="JohnMary-CV.pdf" download class="download-button">
-            <i class="fas fa-download"></i> Download Resume
-          </a>
+        <a href="https://kaggle.com/janmari" target="_blank" aria-label="Kaggle">
+          <i class="fab fa-kaggle"></i>
+        </a>
+        <a href="https://instagram.com/phil.anth.ropist" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
       </div>
-    </div>
-  </section>  
-
-  <!-- Back to Top Arrow -->
-<div id="back-to-top" class="back-to-top">
-    <i class="fas fa-arrow-up"></i>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 John Mary Nyajura. All rights reserved</p>
-    <div class="social-icons">
-      <a href="https://github.com/okalmary254" target="_blank" aria-label="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://twitter.com/jean__marie_" target="_blank" aria-label="Twitter">
-        <i class="fa-brands fa-twitter"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/john-mary254" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://kaggle.com/janmari" target="_blank" aria-label="Kaggle">
-        <i class="fab fa-kaggle"></i>
-      </a>
-      <a href="https://instagram.com/phil.anth.ropist" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </div>
-  </footer>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "John Mary Nyajura",
-      "url": "https://johnmn.netlify.app",
-      "sameAs": [
-        "https://github.com/okalmary254",
-        "https://linkedin.com/in/john-mary254",
-        "https://twitter.com/jean__marie_"
-      ],
-      "jobTitle": "Data Scientist & AI Engineer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "AMREC Consultants"
-      },
-      "description": "Statistics and Programming student specializing in data science, machine learning, and web development.",
-      "alumniOf": "Mama Ngina University"
-    }
-    </script>
-  <script src="script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    </footer>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Mary Nyajura",
+        "url": "https://johnmn.netlify.app",
+        "sameAs": [
+          "https://github.com/okalmary254",
+          "https://linkedin.com/in/john-mary254",
+          "https://twitter.com/jean__marie_"
+        ],
+        "jobTitle": "Data Scientist & AI Engineer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "AMREC Consultants"
+        },
+        "description": "Statistics and Programming student specializing in data science, machine learning, and web development.",
+        "alumniOf": "Mama Ngina University"
+      }
+      </script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>
+

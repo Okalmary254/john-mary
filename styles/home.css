@@ -1,0 +1,108 @@
+
+/* Home Section */
+#home {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
+    color: white;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.home-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.home-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.home-image {
+    flex: 1;
+    max-width: 400px;
+}
+
+.home-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+/* Highlights Section */
+#highlights {
+    padding: 4rem 0;
+    background-color: var(--background);
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.highlight-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.highlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.highlight-card p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-image {
+        margin-top: 2rem;
+    }
+
+    .hightlight-container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .nav-links li {
+        margin: 0.5rem;
+    }
+}

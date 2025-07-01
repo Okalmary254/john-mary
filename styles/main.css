@@ -1,0 +1,138 @@
+
+/* Base Reset & Typography */
+:root {
+    --primary: #2c3e50;       /* Dark blue-gray */
+    --secondary: #3498db;     /* Vibrant blue */
+    --accent: #e74c3c;        /* Soft red */
+    --light: #ecf0f1;         /* Light gray */
+    --dark: #2c3e50;          /* Dark blue-gray */
+    --text: #333;             /* Main text color */
+    --text-light: #7f8c8d;    /* Lighter text */
+    --background: #f9f9f9;    /* Page background */
+    --card-bg: #ffffff;       /* Card background */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background-color: var(--background);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: var(--primary);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: var(--light);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    margin-left: 1rem;
+}
+
+.btn.secondary:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary);
+    color: var(--light);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
+
+/* Icons */
+.fas {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+}
