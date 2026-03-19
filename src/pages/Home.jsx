@@ -46,7 +46,7 @@ export default function Home() {
           {/* Text */}
           <div className="flex-1">
             <p className="text-[11px] text-muted dark:text-gray-400 tracking-[0.1em] uppercase mb-5">
-              Data Scientist · AI Engineer · Nairobi
+              Data Scientist · Statistician · Nairobi
             </p>
             <h1 className="font-serif text-5xl md:text-6xl font-normal leading-[1.08] tracking-tight text-ink dark:text-white mb-4">
               Hello, I'm<br />
