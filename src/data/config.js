@@ -8,7 +8,7 @@ export const EMAILJS = {
 // ─── Site metadata ────────────────────────────────────────────────────────────
 export const SITE = {
   name:        'John Mary Nyajura',
-  role:        'Data Scientist & AI Engineer',
+  role:        'Data Scientist & Statistician',
   tagline:     'Statistics & Programming Student | Aspiring Data Scientist',
   description: 'Passionate about data science, AI, and web development.',
   university:  'Mama Ngina University',
