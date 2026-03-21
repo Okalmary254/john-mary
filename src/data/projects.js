@@ -35,7 +35,7 @@ export const PROJECTS = [
     description:
       'Python data analysis of Boston housing price prediction using Pandas, Matplotlib, and Seaborn to visualize factors affecting prices.',
     tags: ['Python', 'Pandas', 'Data Visualization'],
-    year: '2023',
+    year: '2024',
     category: 'Machine Learning',
     image: '/images/boston.webp',
     kaggle: null,
@@ -50,7 +50,7 @@ export const PROJECTS = [
     description:
       'NLP model to analyze tweet sentiments using Python, NLTK, and Scikit-learn. Classifies tweets as positive, negative, or neutral with 85% accuracy.',
     tags: ['NLP', 'Machine Learning', 'Python'],
-    year: '2023',
+    year: '2024',
     category: 'NLP',
     image: '/images/xlogo.jpeg',
     kaggle: null,
@@ -65,7 +65,7 @@ export const PROJECTS = [
     description:
       'A dynamic Streamlit-powered dashboard allowing users to upload datasets, choose chart types, and generate customizable visualizations. Features include interactive filters, correlation heatmaps, trend analysis, and support for various file formats.',
     tags: ['Python', 'Streamlit', 'Matplotlib', 'Seaborn'],
-    year: '2023',
+    year: '2024',
     category: 'Data Analysis',
     image: '/images/interactivedashboard.jpeg',
     kaggle: null,
@@ -78,9 +78,9 @@ export const PROJECTS = [
     id: 6,
     title: 'Personal Portfolio Website',
     description:
-      'Responsive portfolio website built with modern web technologies including HTML5, CSS3, JavaScript, and Tailwind CSS for styling.',
-    tags: ['HTML/CSS', 'JavaScript', 'Tailwind CSS'],
-    year: '2023',
+      'Responsive portfolio website built with modern web technologies including React, JavaScript, and Tailwind CSS for styling.',
+    tags: ['React', 'JavaScript', 'Tailwind CSS'],
+    year: '2024',
     category: 'Web Development',
     image: '/images/portfoliopint.jpeg',
     kaggle: null,
@@ -95,7 +95,7 @@ export const PROJECTS = [
     description:
       'Responsive website built with modern web technologies including React, Node.js, and Tailwind CSS for styling.',
     tags: ['React', 'JavaScript', 'Tailwind CSS'],
-    year: '2024',
+    year: '2025',
     category: 'Web Development',
     image: '/images/lynq-Logo.png',
     kaggle: null,
@@ -104,4 +104,19 @@ export const PROJECTS = [
     report: null,
     notebook: null,
   },
+  {
+    id: 8,
+    title: 'E-commerce Website',
+    description:
+      'A fully functional e-commerce website built with React for the frontend and Node.js/Express for the backend. Features include user authentication, product listings, shopping cart, and order management.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB'],
+    year: '2026',
+    category: 'Web Development',
+    image: '/images/ecommercepint.jpeg',
+    kaggle: null,
+    github: 'https://github.com/Okalmary254/unimart.git',
+    live: null,
+    report: null,
+    notebook: null,
+  }
 ]
