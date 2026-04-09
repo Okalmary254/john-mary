@@ -21,7 +21,7 @@ export const SITE = {
   github:      'https://github.com/okalmary254',
   twitter:     'https://twitter.com/jean__marie_',
   kaggle:      'https://kaggle.com/janmari',
-  instagram:   'https://instagram.com/phil.anth.ropist',
+  instagram:   'https://instagram.com/su.mm.er-para.dise',
   resumeUrl:   '/documents/John_Mary_Nyajura.pdf',
   profilePic:  '/images/profilepic.jpg',
   siteUrl:     'https://okalmjohn.vercel.app',
