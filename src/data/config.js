@@ -23,6 +23,6 @@ export const SITE = {
   kaggle:      'https://kaggle.com/janmari',
   instagram:   'https://instagram.com/phil.anth.ropist',
   resumeUrl:   '/documents/John_Mary_Nyajura.pdf',
-  profilePic:  '/images/profilePic.jpg',
-  siteUrl:     'https://okalmjohn.netlify.app',
+  profilePic:  '/images/profilepic.jpg',
+  siteUrl:     'https://okalmjohn.vercel.app',
 }

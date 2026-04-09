@@ -20,7 +20,7 @@ export const PROJECTS = [
     description:
       'Python data analysis of churn prediction using Pandas, Matplotlib, and Seaborn to visualize return rates and identify key factors driving customer attrition.',
     tags: ['Python', 'Pandas', 'Data Visualization'],
-    year: '2024',
+    year: '2025',
     category: 'Machine Learning',
     image: '/images/churn.webp',
     kaggle: 'https://www.kaggle.com/discussions/general/240865',
@@ -35,7 +35,7 @@ export const PROJECTS = [
     description:
       'Python data analysis of Boston housing price prediction using Pandas, Matplotlib, and Seaborn to visualize factors affecting prices.',
     tags: ['Python', 'Pandas', 'Data Visualization'],
-    year: '2024',
+    year: '2025',
     category: 'Machine Learning',
     image: '/images/boston.webp',
     kaggle: null,

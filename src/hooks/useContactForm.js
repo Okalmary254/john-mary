@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
-import { EMAILJS } from '../data/config'
+
+const EMAILJS = {
+  SERVICE_ID:  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  TEMPLATE_ID: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  PUBLIC_KEY:  import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+}
 
 const INITIAL = { from_name: '', reply_to: '', subject: '', message: '' }
 
 export default function useContactForm() {
   const [form, setForm]     = useState(INITIAL)
-  const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const [status, setStatus] = useState('idle')
 
   const handleChange = (e) =>
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }))
@@ -23,7 +28,8 @@ export default function useContactForm() {
       )
       setStatus('success')
       setForm(INITIAL)
-    } catch {
+    } catch (err) {
+      console.error('EmailJS error:', err)
       setStatus('error')
     }
   }
