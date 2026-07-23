@@ -9,7 +9,7 @@ export const EMAILJS = {
 export const SITE = {
   name:        'John Mary Nyajura',
   role:        'Data Scientist & Statistician',
-  tagline:     'Statistics & Programming Student | Aspiring Data Scientist',
+  tagline:     'Statistics | Data Scientist',
   description: 'Passionate about data science, AI, and web development.',
   university:  'Mama Ngina University',
   company:     'AMREC Consultants',

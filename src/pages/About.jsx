@@ -65,7 +65,7 @@ export default function About() {
       <PageHeader
         label="About"
         title="John Mary Nyajura"
-        subtitle="Statistics & Programming student. Aspiring data scientist and Statistician based in Nairobi, Kenya."
+        subtitle="Data Scientist | Statistician based in Nairobi, Kenya."
       />
 
       {/* Bio + Photo */}
