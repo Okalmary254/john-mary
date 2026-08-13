@@ -8,7 +8,7 @@ export const CERTIFICATIONS = [
     description:
       'Earned by completing a 3-month course series covering data cleaning, analysis, visualization, and tools like SQL, R, and Tableau.',
     skills: ['SQL', 'R', 'Tableau', 'Data Cleaning', 'Data Analysis'],
-    credentialUrl: '/documents/AMREC CERT1.pdf',
+    credentialUrl: '/documents/amrec cert1.pdf',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const CERTIFICATIONS = [
     description:
       'Demonstrated foundational understanding of data analytics and visualizations, data collection, and KDHS data management.',
     skills: ['Data Analytics', 'Data Visualization', 'KDHS', 'Data Collection'],
-    credentialUrl: '/documents/AMREC CERT 2.pdf',
+    credentialUrl: '/documents/amrec cert2.pdf',
   },
   {
     id: 3,
