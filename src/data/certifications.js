@@ -41,6 +41,6 @@ export const CERTIFICATIONS = [
     description:
       'Completed the Good Clinical Practice certification, focusing on ethical standards, subject safety, and regulatory compliance in clinical research.',
     skills: ['Clinical Research', 'Research Ethics', 'Regulatory Compliance', 'GCP'],
-    credentialUrl: '/documents/citiCompletionCertificate_14445440_69583209.pdf',
+    credentialUrl: '/documents/citicompletioncertificate_14445440_69583209.pdf',
   },
 ]
