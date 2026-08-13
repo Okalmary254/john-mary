@@ -19,7 +19,7 @@ export const CERTIFICATIONS = [
     description:
       'Demonstrated foundational understanding of data analytics and visualizations, data collection, and KDHS data management.',
     skills: ['Data Analytics', 'Data Visualization', 'KDHS', 'Data Collection'],
-    credentialUrl: '/documents/amrec cert2.pdf',
+    credentialUrl: '/documents/amrec cert 2.pdf',
   },
   {
     id: 3,
