@@ -22,8 +22,8 @@ const TIMELINE = [
   },
   {
     period: '2025 – Present',
-    role: 'Founder & Developer',
-    org: 'LynqIQ',
+    role: 'Developer',
+    org: 'Elite SamTech Solutions',
   },
 ]
 
