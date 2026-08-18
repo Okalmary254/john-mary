@@ -7,9 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+    <!-- EssDonate Widget -->
+    <script src="https://donate.elitesamttech.co.ke/static/donate-widget.js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        DonateWidget.init({
+          creator: 'jeanmarie',
+          theme: 'auto',
+          color: '#10b981',
+          buttonText: 'Support Me',
+          submitButtonText: 'Support Ksh {amount} via M-Pesa',
+          showStats: false,
+          askName: true,
+          askMessage: true,
+          showProfile: true
+        });
+      });
+    </script>
   </body>
 </html>
