@@ -24,5 +24,5 @@ export const SITE = {
   instagram:   'https://instagram.com/su.mm.er-para.dise',
   resumeUrl:   '/documents/John_Mary_Nyajura.pdf',
   profilePic:  '/images/profilepic.jpg',
-  siteUrl:     'https://okalmjohn.vercel.app',
+  siteUrl:     'https://johnmary.co.ke',
 }
