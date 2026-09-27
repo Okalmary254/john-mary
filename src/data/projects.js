@@ -118,7 +118,7 @@ export const PROJECTS = [
     live: null,
     report: null,
     notebook: null,
-  }
+  },
     {
     id: 9,
     title: 'Tiny Neural Net from Scratch: Fashion-MNIST Classifier',
