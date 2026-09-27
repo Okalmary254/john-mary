@@ -119,4 +119,19 @@ export const PROJECTS = [
     report: null,
     notebook: null,
   }
+    {
+    id: 9,
+    title: 'Tiny Neural Net from Scratch: Fashion-MNIST Classifier',
+    description:
+      'A deep, regularized neural network built entirely from scratch in NumPy (no PyTorch/TensorFlow for the model itself), trained on Fashion-MNIST. Includes hand-derived backpropagation verified with numerical gradient checking, three optimizers (SGD+Momentum, RMSProp, Adam) implemented manually, dropout and L2 regularization, cosine learning-rate decay with early stopping, and a PyTorch cross-check confirming the from-scratch model reaches ~90% test accuracy.',
+    tags: ['Python', 'NumPy', 'Deep Learning', 'PyTorch'],
+    year: '2026',
+    category: 'Machine Learning',
+    image: '/images/tinyneuralnet.jpeg',
+    kaggle: null,
+    github: 'https://github.com/Okalmary254/TinyNeuralNet.git',
+    live: null,
+    report: null,
+    notebook: '/documents/TinyNeuralNet_Advanced.ipynb',
+  }
 ]
