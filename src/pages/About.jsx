@@ -16,8 +16,8 @@ const TIMELINE = [
     org: 'AMREC Consultants',
   },
   {
-    period: 'May 2025 – Aug 2025',
-    role: 'Junior Data Scientist Mentee',
+    period: 'May 2025 – Present',
+    role: 'Junior Data Scientist',
     org: 'AMREC Consultants',
   },
   {
@@ -85,28 +85,27 @@ export default function About() {
         <div className="space-y-4">
           <h2 className="font-serif text-2xl font-normal text-ink dark:text-white">My Story</h2>
           <p className="text-[13px] text-muted dark:text-gray-400 leading-relaxed">
-            Welcome to my digital space! I am a passionate and driven technology enthusiast with a deep
-            interest in{' '}
-            <strong className="text-ink dark:text-white font-medium">
-              data science, artificial intelligence & machine learning, cybersecurity, and networking
-            </strong>.
-          </p>
-          <p className="text-[13px] text-muted dark:text-gray-400 leading-relaxed">
-            Currently, I am pursuing a{' '}
-            <strong className="text-ink dark:text-white font-medium">
-              Bachelor of Science (Statistics and Programming)
-            </strong>{' '}
-            at{' '}
-            <strong className="text-ink dark:text-white font-medium">Mama Ngina University</strong>,
-            refining my expertise in data analysis, software development, and system security. I am also a{' '}
-            <strong className="text-ink dark:text-white font-medium">
-              junior data scientist and analyst
-            </strong>{' '}
-            at{' '}
-            <strong className="text-ink dark:text-white font-medium">AMREC Consultants</strong>, where
-            I completed a mentorship focused on research, data-driven decision-making, and analytical
-            problem-solving.
-          </p>
+  Welcome to my digital space! I am a driven technology enthusiast with a deep
+  interest in{' '}
+  <strong className="text-ink dark:text-white font-medium">
+    data science, artificial intelligence and machine learning, cybersecurity, and networking
+  </strong>.
+</p>
+<p className="text-[13px] text-muted dark:text-gray-400 leading-relaxed">
+  I am currently pursuing a{' '}
+  <strong className="text-ink dark:text-white font-medium">
+    Bachelor of Science in Statistics and Programming
+  </strong>
+  , where I am building strong expertise in data analysis, software development, and system
+  security. I also work as a{' '}
+  <strong className="text-ink dark:text-white font-medium">
+    junior data scientist and analyst
+  </strong>{' '}
+  at{' '}
+  <strong className="text-ink dark:text-white font-medium">AMREC Consultants</strong>, where
+  I completed a mentorship focused on research, data-driven decision-making, and analytical
+  problem-solving.
+</p>
           <div className="pt-2">
             <Button as="a" href={SITE.resumeUrl} variant="primary" download>
               Download Resume
