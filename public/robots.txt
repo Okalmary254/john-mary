@@ -1,0 +1,11 @@
+# robots.txt for https://johnmary.co.ke
+User-agent: *
+Allow: /
+
+# Keep crawlers out of anything that is not meant for search
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap location (must be an absolute URL)
+Sitemap: https://johnmary.co.ke/sitemap.xml
